@@ -14,7 +14,7 @@ export default function Form({example,setText,handleAlert}) {
     handleAlert("Upper case done",'Well done')
    }
    const wordCounter=()=>{
-    
+    console.log("aaaa")
    }
 
    const onClicklow=()=>{
