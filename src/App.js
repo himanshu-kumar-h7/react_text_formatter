@@ -39,11 +39,7 @@ function App() {
     } else {
       setMode("light");
       document.body.style.backgroundColor = "white";
-      handleAlert('Light mode is enabled', 'Success')
-      
-      setTimeout(() => {
-        document.title = 'Textformatter - Home ';
-      }, 1500);
+      handleAlert('Light mode is enabledd', 'Success')
     }
   };
   return (
