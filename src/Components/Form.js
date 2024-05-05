@@ -11,7 +11,7 @@ export default function Form({example,setText,handleAlert}) {
    }
    const onClickhigh=()=>{
     setLocalText(localText.toUpperCase())
-    handleAlert("Upper case done",'Well done')
+    handleAlert("Upper case done",'Well doneee')
    }
    const wordCounter=()=>{
     console.log("local changes")
