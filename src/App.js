@@ -26,7 +26,7 @@ function App() {
     } else {
       setMode("light");
       document.body.style.backgroundColor = "white";
-      handleAlert('Light mode is enableds', 'Success')
+      handleAlert('Light mode is enabled', 'Success')
     }
   };
   return (
