@@ -23,10 +23,27 @@ function App() {
       setMode("dark");
       document.body.style.backgroundColor = "#6CB4EE";
       handleAlert('Dark mode is enabled', 'Successs')
+     //display
+      // setInterval(() => {
+      //   document.title = 'Textformatter - Home - Dark mode';
+      // }, 1000);
+      // setInterval(() => {
+      //   document.title = 'Textformatter - 2 ';
+      // }, 2000);
+      document.title = 'Textformatter - Home dark enabled ';
+      setTimeout(() => {
+        
+        document.title = 'Textformatter - Home ';
+       }, 2000);
+      
     } else {
       setMode("light");
       document.body.style.backgroundColor = "white";
       handleAlert('Light mode is enabled', 'Success')
+      
+      setTimeout(() => {
+        document.title = 'Textformatter - Home ';
+      }, 1500);
     }
   };
   return (
