@@ -41,9 +41,9 @@ export default function Form({example,setText,handleAlert}) {
    <label className="form-label">
     <h1><b>{example}</b></h1></label>
   <textarea className="form-control" id="Textarea1" onChange={handleChange}  value={localText} rows="8" ></textarea>
-  <button id="btn" className="btn btn-click my-3"  onClick={onClickhigh}>Capital Case</button>
-  <button id="btn" className="btn btn-click2 my-3 mx-3"  onClick={onClicklow}>Lower Case</button>
-  <button id="btn" className="btn btn-click2 my-3 mx-3"  onClick={onClickClear}>Clear Text</button>
+  <button disabled={setLocalText.length===0} id="btn" className="btn btn-click my-3"  onClick={onClickhigh}>Capital Case</button>
+  <button disabled={setLocalText.length===0} id="btn" className="btn btn-click2 my-3 mx-3"  onClick={onClicklow}>Lower Case</button>
+  <button  disabled={setLocalText.length===0} id="btn" className="btn btn-click2 my-3 mx-3"  onClick={onClickClear}>Clear Text</button>
 </div>
 <div className=" my-3" id="summary1">
 <h3><b>Summary</b></h3>
