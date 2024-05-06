@@ -5,8 +5,16 @@ export default function Alert(props) {
         const lower = word.toLowerCase();
         return lower.charAt(0).toUpperCase() + lower.slice(1);
     }
+    
+     
+
+    
   return (
     <>
+    <div style={{height : '60px',
+   
+  }
+    }>
       {
       props.alert && (
         <div 
@@ -16,6 +24,7 @@ export default function Alert(props) {
          { captialized(props.alert.type)} : {props.alert.message}
         </div>
       )}
+      </div>
     </>
   );
 }
