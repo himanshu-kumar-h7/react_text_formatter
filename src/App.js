@@ -4,6 +4,8 @@ import Form from "./Components/Form";
 import { useState } from "react";
 import AboutUs from "./AboutUs";
 import Alert from "./Components/Alert";
+import { BrowserRouter as Router } from 'react-router-dom';
+
 
 function App() {
   const [text, setText] = useState("");
