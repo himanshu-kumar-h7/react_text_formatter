@@ -31,7 +31,9 @@ function App() {
   };
   return (
     <>
-      <Navbar
+
+    
+    <Navbar
         title="TextUtils"
         Home="Home"
         text={text}
