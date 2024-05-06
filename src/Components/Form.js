@@ -12,6 +12,10 @@ export default function Form({example,setText,handleAlert}) {
    const onClickhigh=()=>{
     setLocalText(localText.toUpperCase())
     handleAlert("Upper case done",'Well doneee')
+    setTimeout(() => {
+      document.title = 'Textformatter - Home - Uppercase';
+    }, 2000);
+    
    }
   //  const wordCounter=()=>{
   //   console.log("local changes")
